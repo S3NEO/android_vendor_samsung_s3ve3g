@@ -40,7 +40,7 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/s3ve3g/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
 	vendor/samsung/s3ve3g/proprietary/vendor/lib/libbtnv.so:system/vendor/lib/libbtnv.so \
 	vendor/samsung/s3ve3g/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
-	vendor/samsung/s3ve3g/proprietary/lib/hw/camera.msm8226.so:system/lib/hw/camera.msm8226.so \
+	vendor/samsung/s3ve3g/proprietary/lib/hw/camera.vendor.msm8226.so:system/lib/hw/camera.vendor.msm8226.so \
 	vendor/samsung/s3ve3g/proprietary/lib/libarcsoft_flawlessface.so:system/lib/libarcsoft_flawlessface.so \
 	vendor/samsung/s3ve3g/proprietary/lib/libarcsoft_night_shot.so:system/lib/libarcsoft_night_shot.so \
 	vendor/samsung/s3ve3g/proprietary/lib/libarcsoft_panorama_burstcapture.so:system/lib/libarcsoft_panorama_burstcapture.so \
