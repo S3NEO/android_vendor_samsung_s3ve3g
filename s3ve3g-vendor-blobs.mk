@@ -223,3 +223,8 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/s3ve3g/proprietary/bin/time_daemon:system/bin/time_daemon \
 	vendor/samsung/s3ve3g/proprietary/vendor/lib/libtime_genoff.so:system/vendor/lib/libtime_genoff.so \
 	vendor/samsung/s3ve3g/proprietary/vendor/lib/libTimeService.so:system/vendor/lib/libTimeService.so \
+	vendor/samsung/s3ve3g/proprietary/vendor/lib/rfsa/adsp/libadsp_fd_skel.so:system/vendor/lib/rfsa/adsp/libadsp_fd_skel.so \
+	vendor/samsung/s3ve3g/proprietary/vendor/lib/soundfx/libqcbassboost.so:system/vendor/lib/soundfx/libqcbassboost.so \
+	vendor/samsung/s3ve3g/proprietary/vendor/lib/soundfx/libqcreverb.so:system/vendor/lib/soundfx/libqcreverb.so \
+	vendor/samsung/s3ve3g/proprietary/vendor/lib/soundfx/libqcvirt.so:system/vendor/lib/soundfx/libqcvirt.so
+ 
