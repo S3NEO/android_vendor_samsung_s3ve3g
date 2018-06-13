@@ -16,6 +16,7 @@
 
 PRODUCT_COPY_FILES += \
 	vendor/samsung/s3ve3g/proprietary/vendor/lib/libRSDriver_adreno.so:system/vendor/lib/libRSDriver_adreno.so \
+	vendor/samsung/s3ve3g/proprietary/vendor/lib/libstlport.so:system/vendor/lib/libstlport.so \
     	vendor/samsung/s3ve3g/proprietary/vendor/lib/librs_adreno.so:system/vendor/lib/librs_adreno.so \
     	vendor/samsung/s3ve3g/proprietary/vendor/lib/librs_adreno_sha1.so:system/vendor/lib/librs_adreno_sha1.so \
 	vendor/samsung/s3ve3g/proprietary/bin/adsprpcd:system/bin/adsprpcd \
