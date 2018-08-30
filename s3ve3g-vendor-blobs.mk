@@ -204,13 +204,17 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/s3ve3g/proprietary/bin/qmuxd:system/bin/qmuxd \
 	vendor/samsung/s3ve3g/proprietary/bin/radish:system/bin/radish \
 	vendor/samsung/s3ve3g/proprietary/bin/rfs_access:system/bin/rfs_access \
+	vendor/samsung/s3ve3g/proprietary/bin/rild:system/bin/rild \
 	vendor/samsung/s3ve3g/proprietary/bin/rmt_storage:system/bin/rmt_storage \
 	vendor/samsung/s3ve3g/proprietary/lib/libatparser.so:system/lib/libatparser.so \
 	vendor/samsung/s3ve3g/proprietary/lib/libcordon.so:system/lib/libcordon.so \
 	vendor/samsung/s3ve3g/proprietary/lib/libfactoryutil.so:system/lib/libfactoryutil.so \
 	vendor/samsung/s3ve3g/proprietary/lib/libomission_avoidance.so:system/lib/libomission_avoidance.so \
 	vendor/samsung/s3ve3g/proprietary/lib/libreference-ril.so:system/lib/libreference-ril.so \
+	vendor/samsung/s3ve3g/proprietary/lib/libril.so:system/lib/libril.so \
 	vendor/samsung/s3ve3g/proprietary/lib/libsec-ril.so:system/lib/libsec-ril.so \
+	vendor/samsung/s3ve3g/proprietary/lib/libsecnativefeature.so:system/lib/libsecnativefeature.so \
+	vendor/samsung/s3ve3g/proprietary/lib/libsecril-client.so:system/lib/libsecril-client.so \
 	vendor/samsung/s3ve3g/proprietary/vendor/lib/libconfigdb.so:system/vendor/lib/libconfigdb.so \
 	vendor/samsung/s3ve3g/proprietary/vendor/lib/libril-qcril-hook-oem.so:system/vendor/lib/libril-qcril-hook-oem.so \
 	vendor/samsung/s3ve3g/proprietary/vendor/lib/libxml.so:system/vendor/lib/libxml.so \
