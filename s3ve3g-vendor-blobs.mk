@@ -202,6 +202,8 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/s3ve3g/proprietary/vendor/lib/libqmiservices.so:system/vendor/lib/libqmiservices.so \
 	vendor/samsung/s3ve3g/proprietary/vendor/lib/libdsi_netctrl.so:system/vendor/lib/libdsi_netctrl.so \
 	vendor/samsung/s3ve3g/proprietary/vendor/lib/libqdi.so:system/vendor/lib/libqdi.so \
+	vendor/samsung/s3ve3g/proprietary/vendor/lib/libconfigdb.so:system/vendor/lib/libconfigdb.so \
+	vendor/samsung/s3ve3g/proprietary/vendor/lib/libidl.so:system/vendor/lib/libidl.so \
 	vendor/samsung/s3ve3g/proprietary/bin/ds_fmc_appd:system/bin/ds_fmc_appd \
 	vendor/samsung/s3ve3g/proprietary/bin/qmuxd:system/bin/qmuxd \
 	vendor/samsung/s3ve3g/proprietary/bin/efsks:system/bin/efsks \
