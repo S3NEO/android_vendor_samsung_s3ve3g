@@ -93,10 +93,10 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/s3ve3g/proprietary/vendor/lib/libqomx_jpegdec.so:system/vendor/lib/libqomx_jpegdec.so \
 	vendor/samsung/s3ve3g/proprietary/vendor/lib/libqomx_jpegenc.so:system/vendor/lib/libqomx_jpegenc.so \
 	vendor/samsung/s3ve3g/proprietary/vendor/lib/libsensor1.so:system/vendor/lib/libsensor1.so \
-	vendor/samsung/s3ve3g/proprietary/lib/B08QT_libTsAe.so:system/lib/B08QT_libTsAe.so \
-	vendor/samsung/s3ve3g/proprietary/lib/B08QT_libTsAf.so:system/lib/B08QT_libTsAf.so \
-	vendor/samsung/s3ve3g/proprietary/lib/B08QT_libTs_J_Accm.so:system/lib/B08QT_libTs_J_Accm.so \
-	vendor/samsung/s3ve3g/proprietary/lib/B08QT_libTs_J_Awb.so:system/lib/B08QT_libTs_J_Awb.so \
+	vendor/samsung/s3ve3g/proprietary/lib/E08QL_libTsAe.so:system/lib/E08QL_libTsAe.so \
+	vendor/samsung/s3ve3g/proprietary/lib/E08QL_libTsAf.so:system/lib/E08QL_libTsAf.so \
+	vendor/samsung/s3ve3g/proprietary/lib/E08QL_libTs_J_Accm.so:system/lib/E08QL_libTs_J_Accm.so \
+	vendor/samsung/s3ve3g/proprietary/lib/E08QL_libTs_J_Awb.so:system/lib/E08QL_libTs_J_Awb.so \
 	vendor/samsung/s3ve3g/proprietary/lib/libAfSingle.so:system/lib/libAfSingle.so \
 	vendor/samsung/s3ve3g/proprietary/lib/libchromatix_s5k6a3yx_smart_stay.so:system/lib/libchromatix_s5k6a3yx_smart_stay.so \
 	vendor/samsung/s3ve3g/proprietary/lib/libchromatix_s5k6a3yx_vt.so:system/lib/libchromatix_s5k6a3yx_vt.so \
