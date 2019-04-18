@@ -233,4 +233,5 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/s3ve3g/proprietary/vendor/lib/libperipheral_client.so:system/vendor/lib/libperipheral_client.so \
 	vendor/samsung/s3ve3g/proprietary/vendor/lib/soundfx/libqcvirt.so:system/vendor/lib/soundfx/libqcvirt.so \
 	vendor/samsung/s3ve3g/proprietary/vendor/lib/soundfx/libqcreverb.so:system/vendor/lib/soundfx/libqcreverb.so \
-	vendor/samsung/s3ve3g/proprietary/vendor/lib/soundfx/libqcbassboost.so:system/vendor/lib/soundfx/libqcbassboost.so
+	vendor/samsung/s3ve3g/proprietary/vendor/lib/soundfx/libqcbassboost.so:system/vendor/lib/soundfx/libqcbassboost.so \
+	vendor/samsung/msm8974-common/proprietary/vendor/lib/libaptX_encoder.so:system/vendor/lib/libaptX_encoder.so
