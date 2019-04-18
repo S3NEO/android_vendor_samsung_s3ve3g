@@ -132,11 +132,11 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/s3ve3g/proprietary/vendor/lib/libchromatix_s5k6a3yx_zsl.so:system/vendor/lib/libchromatix_s5k6a3yx_zsl.so \
 	vendor/samsung/s3ve3g/proprietary/vendor/etc/B08QT_imx175_module_info.xml:system/vendor/etc/B08QT_imx175_module_info.xml \
 	vendor/samsung/s3ve3g/proprietary/vendor/etc/E08QL_s5k4h5yb_module_info.xml:system/vendor/etc/E08QL_s5k4h5yb_module_info.xml \
-	vendor/samsung/s3ve3g/proprietary/vendor/etc/firmware/cpp_firmware_v1_1_1.fw:system/vendor/etc/firmware/cpp_firmware_v1_1_1.fw \
-	vendor/samsung/s3ve3g/proprietary/vendor/etc/firmware/cpp_firmware_v1_1_6.fw:system/vendor/etc/firmware/cpp_firmware_v1_1_6.fw \
-	vendor/samsung/s3ve3g/proprietary/vendor/etc/firmware/cpp_firmware_v1_2_0.fw:system/vendor/etc/firmware/cpp_firmware_v1_2_0.fw \
-	vendor/samsung/s3ve3g/proprietary/vendor/cameradata/datapattern_420sp.yuv:system/vendor/cameradata/datapattern_420sp.yuv \
-	vendor/samsung/s3ve3g/proprietary/vendor/cameradata/datapattern_front_420sp.yuv:system/vendor/cameradata/datapattern_front_420sp.yuv \
+	vendor/samsung/s3ve3g/proprietary/vendor/etc/firmware/cpp_firmware_v1_1_1.fw:system/etc/firmware/cpp_firmware_v1_1_1.fw \
+	vendor/samsung/s3ve3g/proprietary/vendor/etc/firmware/cpp_firmware_v1_1_6.fw:system/etc/firmware/cpp_firmware_v1_1_6.fw \
+	vendor/samsung/s3ve3g/proprietary/vendor/etc/firmware/cpp_firmware_v1_2_0.fw:system/etc/firmware/cpp_firmware_v1_2_0.fw \
+	vendor/samsung/s3ve3g/proprietary/vendor/cameradata/datapattern_420sp.yuv:system/cameradata/datapattern_420sp.yuv \
+	vendor/samsung/s3ve3g/proprietary/vendor/cameradata/datapattern_front_420sp.yuv:system/cameradata/datapattern_front_420sp.yuv \
 	vendor/samsung/s3ve3g/proprietary/vendor/bin/qseecomd:system/vendor/bin/qseecomd \
 	vendor/samsung/s3ve3g/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
 	vendor/samsung/s3ve3g/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
@@ -173,10 +173,10 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/s3ve3g/proprietary/vendor/lib/libllvm-qcom.so:system/vendor/lib/libllvm-qcom.so \
 	vendor/samsung/s3ve3g/proprietary/vendor/lib/libOpenCL.so:system/vendor/lib/libOpenCL.so \
 	vendor/samsung/s3ve3g/proprietary/vendor/lib/libsc-a3xx.so:system/vendor/lib/libsc-a3xx.so \
-	vendor/samsung/s3ve3g/proprietary/vendor/etc/firmware/a300_pfp.fw:system/vendor/etc/firmware/a300_pfp.fw \
-	vendor/samsung/s3ve3g/proprietary/vendor/etc/firmware/a300_pm4.fw:system/vendor/etc/firmware/a300_pm4.fw \
-	vendor/samsung/s3ve3g/proprietary/vendor/etc/firmware/a330_pfp.fw:system/vendor/etc/firmware/a330_pfp.fw \
-	vendor/samsung/s3ve3g/proprietary/vendor/etc/firmware/a330_pm4.fw:system/vendor/etc/firmware/a330_pm4.fw \
+	vendor/samsung/s3ve3g/proprietary/vendor/etc/firmware/a300_pfp.fw:system/etc/firmware/a300_pfp.fw \
+	vendor/samsung/s3ve3g/proprietary/vendor/etc/firmware/a300_pm4.fw:system/etc/firmware/a300_pm4.fw \
+	vendor/samsung/s3ve3g/proprietary/vendor/etc/firmware/a330_pfp.fw:system/etc/firmware/a330_pfp.fw \
+	vendor/samsung/s3ve3g/proprietary/vendor/etc/firmware/a330_pm4.fw:system/etc/firmware/a330_pm4.fw \
 	vendor/samsung/s3ve3g/proprietary/vendor/bin/irsc_util:system/vendor/bin/irsc_util \
 	vendor/samsung/s3ve3g/proprietary/vendor/etc/sec_config:system/vendor/etc/sec_config \
 	vendor/samsung/s3ve3g/proprietary/vendor/lib/libDivxDrm.so:system/vendor/lib/libDivxDrm.so \
