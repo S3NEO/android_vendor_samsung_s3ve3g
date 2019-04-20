@@ -17,7 +17,7 @@
 PRODUCT_COPY_FILES += \
 	vendor/samsung/s3ve3g/proprietary/vendor/lib/libbccQTI.so:system/vendor/lib/libbccQTI.so \
 	vendor/samsung/s3ve3g/proprietary/vendor/lib/libscale.so:system/vendor/lib/libscale.so \
-	vendor/samsung/s3ve3g/proprietary/vendor/lib/hw/sensors.vendor.msm8226.so:system/vendor/lib/hw/sensors.vendor.msm8226.so \
+	vendor/samsung/s3ve3g/proprietary/vendor/lib/sensors.vendor.msm8226.so:system/vendor/lib/sensors.vendor.msm8226.so \
 	vendor/samsung/s3ve3g/proprietary/vendor/lib/libRSDriver_adreno.so:system/vendor/lib/libRSDriver_adreno.so \
 	vendor/samsung/s3ve3g/proprietary/vendor/lib/libstlport.so:system/vendor/lib/libstlport.so \
 	vendor/samsung/s3ve3g/proprietary/vendor/lib/librs_adreno.so:system/vendor/lib/librs_adreno.so \
