@@ -28,17 +28,14 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/s3ve3g/proprietary/vendor/lib/libfastcvadsp_stub.so:system/vendor/lib/libfastcvadsp_stub.so \
 	vendor/samsung/s3ve3g/proprietary/vendor/lib/libfastcvopt.so:system/vendor/lib/libfastcvopt.so \
 	vendor/samsung/s3ve3g/proprietary/vendor/lib/libscve.so:system/vendor/lib/libscve.so \
-	vendor/samsung/s3ve3g/proprietary/vendor/lib/rfsa/adsp/libadsp_denoise_skel.so:system/vendor/lib/rfsa/adsp/libadsp_denoise_skel.so \
-	vendor/samsung/s3ve3g/proprietary/vendor/lib/rfsa/adsp/libdspCV_skel.so:system/vendor/lib/rfsa/adsp/libdspCV_skel.so \
-	vendor/samsung/s3ve3g/proprietary/vendor/lib/rfsa/adsp/libfastcvadsp.so:system/vendor/lib/rfsa/adsp/libfastcvadsp.so \
-	vendor/samsung/s3ve3g/proprietary/vendor/lib/rfsa/adsp/libfastcvadsp_skel.so:system/vendor/lib/rfsa/adsp/libfastcvadsp_skel.so \
-	vendor/samsung/s3ve3g/proprietary/vendor/etc/Bluetooth_cal.acdb:system/vendor/etc/Bluetooth_cal.acdb \
-	vendor/samsung/s3ve3g/proprietary/vendor/etc/General_cal.acdb:system/vendor/etc/General_cal.acdb \
-	vendor/samsung/s3ve3g/proprietary/vendor/etc/Global_cal.acdb:system/vendor/etc/Global_cal.acdb \
-	vendor/samsung/s3ve3g/proprietary/vendor/etc/Handset_cal.acdb:system/vendor/etc/Handset_cal.acdb \
-	vendor/samsung/s3ve3g/proprietary/vendor/etc/Hdmi_cal.acdb:system/vendor/etc/Hdmi_cal.acdb \
-	vendor/samsung/s3ve3g/proprietary/vendor/etc/Headset_cal.acdb:system/vendor/etc/Headset_cal.acdb \
-	vendor/samsung/s3ve3g/proprietary/vendor/etc/Speaker_cal.acdb:system/vendor/etc/Speaker_cal.acdb \
+	vendor/samsung/s3ve3g/proprietary/vendor/lib/rfsa/adsp/libadsp_fd_skel.so:system/vendor/lib/rfsa/adsp/libadsp_fd_skel.so \
+	vendor/samsung/s3ve3g/proprietary/vendor/etc/acdbdata/Bluetooth_cal.acdb:system/vendor/etc/acdbdata/Bluetooth_cal.acdb \
+	vendor/samsung/s3ve3g/proprietary/vendor/etc/acdbdata/General_cal.acdb:system/vendor/etc/acdbdata/General_cal.acdb \
+	vendor/samsung/s3ve3g/proprietary/vendor/etc/acdbdata/Global_cal.acdb:system/vendor/etc/acdbdata/Global_cal.acdb \
+	vendor/samsung/s3ve3g/proprietary/vendor/etc/acdbdata/Handset_cal.acdb:system/vendor/etc/acdbdata/Handset_cal.acdb \
+	vendor/samsung/s3ve3g/proprietary/vendor/etc/acdbdata/Hdmi_cal.acdb:system/vendor/etc/acdbdata/Hdmi_cal.acdb \
+	vendor/samsung/s3ve3g/proprietary/vendor/etc/acdbdata/Headset_cal.acdb:system/vendor/etc/acdbdata/Headset_cal.acdb \
+	vendor/samsung/s3ve3g/proprietary/vendor/etc/acdbdata/Speaker_cal.acdb:system/vendor/etc/acdbdata/Speaker_cal.acdb \
 	vendor/samsung/s3ve3g/proprietary/vendor/lib/libacdbloader.so:system/vendor/lib/libacdbloader.so \
 	vendor/samsung/s3ve3g/proprietary/vendor/lib/libacdbrtac.so:system/vendor/lib/libacdbrtac.so \
 	vendor/samsung/s3ve3g/proprietary/vendor/lib/libadiertac.so:system/vendor/lib/libadiertac.so \
@@ -141,7 +138,6 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/s3ve3g/proprietary/vendor/cameradata/datapattern_420sp.yuv:system/cameradata/datapattern_420sp.yuv \
 	vendor/samsung/s3ve3g/proprietary/vendor/cameradata/datapattern_front_420sp.yuv:system/cameradata/datapattern_front_420sp.yuv \
 	vendor/samsung/s3ve3g/proprietary/vendor/bin/qseecomd:system/vendor/bin/qseecomd \
-	vendor/samsung/s3ve3g/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
 	vendor/samsung/s3ve3g/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
 	vendor/samsung/s3ve3g/proprietary/vendor/lib/libdrmdecrypt.so:system/vendor/lib/libdrmdecrypt.so \
 	vendor/samsung/s3ve3g/proprietary/vendor/lib/libdrmdiag.so:system/vendor/lib/libdrmdiag.so \
@@ -150,9 +146,6 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/s3ve3g/proprietary/vendor/lib/libQSEEComAPI.so:system/vendor/lib/libQSEEComAPI.so \
 	vendor/samsung/s3ve3g/proprietary/vendor/lib/librpmb.so:system/vendor/lib/librpmb.so \
 	vendor/samsung/s3ve3g/proprietary/vendor/lib/libssd.so:system/vendor/lib/libssd.so \
-	vendor/samsung/s3ve3g/proprietary/vendor/lib/libwvdrm_L3.so:system/vendor/lib/libwvdrm_L3.so \
-	vendor/samsung/s3ve3g/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
-	vendor/samsung/s3ve3g/proprietary/vendor/lib/libWVStreamControlAPI_L3.so:system/vendor/lib/libWVStreamControlAPI_L3.so \
 	vendor/samsung/s3ve3g/proprietary/vendor/lib/hw/flp.default.so:system/vendor/lib/hw/flp.default.so \
 	vendor/samsung/s3ve3g/proprietary/vendor/lib/hw/gps.msm8226.so:system/vendor/lib/hw/gps.msm8226.so \
 	vendor/samsung/s3ve3g/proprietary/vendor/lib/libloc_api_v02.so:system/vendor/lib/libloc_api_v02.so \
