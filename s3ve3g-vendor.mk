@@ -17,10 +17,10 @@ $(call inherit-product, vendor/samsung/s3ve3g/s3ve3g-common-vendor.mk)
 
 # Inherit camera specific proprietary files by flags
 ifeq ($(TARGET_HAS_SONY_CAMERA),true)
-$(call inherit-product, vendor/samsung/s3ve3g/s3ve3g-sony.mk)
+$(call inherit-product, vendor/samsung/s3ve3g/s3ve3g-sony-camera-vendor.mk)
 endif
 
 ifeq ($(TARGET_HAS_SAMSUNG_CAMERA),true)
-$(call inherit-product, vendor/samsung/s3ve3g/s3ve3g-samsung.mk)
+$(call inherit-product, vendor/samsung/s3ve3g/s3ve3g-samsung-camera-vendor.mk)
 endif
 
