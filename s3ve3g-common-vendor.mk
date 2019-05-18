@@ -35,6 +35,7 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/s3ve3g/proprietary/vendor/lib/libacdbrtac.so:system/vendor/lib/libacdbrtac.so \
 	vendor/samsung/s3ve3g/proprietary/vendor/lib/libadiertac.so:system/vendor/lib/libadiertac.so \
 	vendor/samsung/s3ve3g/proprietary/vendor/lib/libaudcal.so:system/vendor/lib/libaudcal.so \
+	vendor/samsung/s3ve3g/proprietary/vendor/lib/libcsd-client.so:system/vendor/lib/libcsd-client.so \
 	vendor/samsung/s3ve3g/proprietary/vendor/bin/btnvtool:system/vendor/bin/btnvtool \
 	vendor/samsung/s3ve3g/proprietary/vendor/bin/hci_qcomm_init:system/vendor/bin/hci_qcomm_init \
 	vendor/samsung/s3ve3g/proprietary/vendor/lib/libbtnv.so:system/vendor/lib/libbtnv.so \
@@ -115,6 +116,7 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/s3ve3g/proprietary/vendor/cameradata/datapattern_420sp.yuv:system/cameradata/datapattern_420sp.yuv \
 	vendor/samsung/s3ve3g/proprietary/vendor/cameradata/datapattern_front_420sp.yuv:system/cameradata/datapattern_front_420sp.yuv \
 	vendor/samsung/s3ve3g/proprietary/vendor/bin/qseecomd:system/vendor/bin/qseecomd \
+	vendor/samsung/s3ve3g/proprietary/vendor/lib/libdrmdecrypt.so:system/vendor/lib/libdrmdecrypt.so \
 	vendor/samsung/s3ve3g/proprietary/vendor/lib/libdrmdiag.so:system/vendor/lib/libdrmdiag.so \
 	vendor/samsung/s3ve3g/proprietary/vendor/lib/libdrmfs.so:system/vendor/lib/libdrmfs.so \
 	vendor/samsung/s3ve3g/proprietary/vendor/lib/libdrmtime.so:system/vendor/lib/libdrmtime.so \
@@ -123,22 +125,29 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/s3ve3g/proprietary/vendor/lib/libssd.so:system/vendor/lib/libssd.so \
 	vendor/samsung/s3ve3g/proprietary/vendor/bin/irsc_util:system/vendor/bin/irsc_util \
 	vendor/samsung/s3ve3g/proprietary/vendor/etc/sec_config:system/vendor/etc/sec_config \
+	vendor/samsung/s3ve3g/proprietary/vendor/lib/libmm-color-convertor.so:system/vendor/lib/libmm-color-convertor.so \
+	vendor/samsung/s3ve3g/proprietary/vendor/lib/libmmosal.so:system/vendor/lib/libmmosal.so \
 	vendor/samsung/s3ve3g/proprietary/vendor/lib/libqti-perfd-client.so:system/vendor/lib/libqti-perfd-client.so \
 	vendor/samsung/s3ve3g/proprietary/vendor/lib/libqc-opt.so:system/vendor/lib/libqc-opt.so \
 	vendor/samsung/s3ve3g/proprietary/vendor/lib/libdiag.so:system/vendor/lib/libdiag.so \
+	vendor/samsung/s3ve3g/proprietary/vendor/lib/libdsnetutils.so:system/vendor/lib/libdsnetutils.so \
+	vendor/samsung/s3ve3g/proprietary/vendor/lib/libdsucsd.so:system/vendor/lib/libdsucsd.so \
 	vendor/samsung/s3ve3g/proprietary/vendor/lib/libdsutils.so:system/vendor/lib/libdsutils.so \
 	vendor/samsung/s3ve3g/proprietary/vendor/lib/libidl.so:system/vendor/lib/libidl.so \
+	vendor/samsung/s3ve3g/proprietary/vendor/bin/ds_fmc_appd:system/vendor/bin/ds_fmc_appd \
 	vendor/samsung/s3ve3g/proprietary/vendor/lib/libqcci_legacy.so:system/vendor/lib/libqcci_legacy.so \
 	vendor/samsung/s3ve3g/proprietary/vendor/lib/libqmi.so:system/vendor/lib/libqmi.so \
 	vendor/samsung/s3ve3g/proprietary/vendor/lib/libqmi_cci.so:system/vendor/lib/libqmi_cci.so \
 	vendor/samsung/s3ve3g/proprietary/vendor/lib/libqmi_client_qmux.so:system/vendor/lib/libqmi_client_qmux.so \
 	vendor/samsung/s3ve3g/proprietary/vendor/lib/libqmi_common_so.so:system/vendor/lib/libqmi_common_so.so \
 	vendor/samsung/s3ve3g/proprietary/vendor/lib/libqmi_csi.so:system/vendor/lib/libqmi_csi.so \
+	vendor/samsung/s3ve3g/proprietary/vendor/lib/libqmi_csvt_srvc.so:system/vendor/lib/libqmi_csvt_srvc.so \
 	vendor/samsung/s3ve3g/proprietary/vendor/lib/libqmi_encdec.so:system/vendor/lib/libqmi_encdec.so \
 	vendor/samsung/s3ve3g/proprietary/vendor/lib/libqmiservices.so:system/vendor/lib/libqmiservices.so \
 	vendor/samsung/s3ve3g/proprietary/vendor/lib/libdsi_netctrl.so:system/vendor/lib/libdsi_netctrl.so \
 	vendor/samsung/s3ve3g/proprietary/vendor/lib/libqdi.so:system/vendor/lib/libqdi.so \
 	vendor/samsung/s3ve3g/proprietary/vendor/lib/libconfigdb.so:system/vendor/lib/libconfigdb.so \
+	vendor/samsung/s3ve3g/proprietary/vendor/lib/libidl.so:system/vendor/lib/libidl.so \
 	vendor/samsung/s3ve3g/proprietary/vendor/bin/qmuxd:system/vendor/bin/qmuxd \
 	vendor/samsung/s3ve3g/proprietary/vendor/bin/efsks:system/vendor/bin/efsks \
 	vendor/samsung/s3ve3g/proprietary/vendor/bin/ks:system/vendor/bin/ks \
@@ -147,7 +156,12 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/s3ve3g/proprietary/vendor/bin/radish:system/vendor/bin/radish \
 	vendor/samsung/s3ve3g/proprietary/vendor/bin/rfs_access:system/vendor/bin/rfs_access \
 	vendor/samsung/s3ve3g/proprietary/vendor/bin/rmt_storage:system/vendor/bin/rmt_storage \
+	vendor/samsung/s3ve3g/proprietary/vendor/lib/libatparser.so:system/vendor/lib/libatparser.so \
+	vendor/samsung/s3ve3g/proprietary/vendor/lib/libcordon.so:system/vendor/lib/libcordon.so \
+	vendor/samsung/s3ve3g/proprietary/vendor/lib/libfactoryutil.so:system/vendor/lib/libfactoryutil.so \
+	vendor/samsung/s3ve3g/proprietary/vendor/lib/libomission_avoidance.so:system/vendor/lib/libomission_avoidance.so \
 	vendor/samsung/s3ve3g/proprietary/vendor/lib/libsec-ril.so:system/vendor/lib/libsec-ril.so \
+	vendor/samsung/s3ve3g/proprietary/vendor/lib/libconfigdb.so:system/vendor/lib/libconfigdb.so \
 	vendor/samsung/s3ve3g/proprietary/vendor/lib/libril-qcril-hook-oem.so:system/vendor/lib/libril-qcril-hook-oem.so \
 	vendor/samsung/s3ve3g/proprietary/vendor/lib/libxml.so:system/vendor/lib/libxml.so \
 	vendor/samsung/s3ve3g/proprietary/vendor/lib/libyasalgo.so:system/vendor/lib/libyasalgo.so \
