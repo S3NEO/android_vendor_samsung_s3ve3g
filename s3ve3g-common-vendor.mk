@@ -13,7 +13,7 @@
 # limitations under the License.
 
 PRODUCT_COPY_FILES += \
-	vendor/samsung/s3ve3g/proprietary/vendor/lib/sensors.vendor.msm8226.so:system/vendor/lib/sensors.vendor.msm8226.so \
+	vendor/samsung/s3ve3g/proprietary/vendor/lib/hw/sensors.vendor.msm8226.so:system/vendor/lib/hw/sensors.vendor.msm8226.so \
 	vendor/samsung/s3ve3g/proprietary/vendor/bin/adsprpcd:system/vendor/bin/adsprpcd \
 	vendor/samsung/s3ve3g/proprietary/vendor/lib/libadsprpc.so:system/vendor/lib/libadsprpc.so \
 	vendor/samsung/s3ve3g/proprietary/vendor/lib/libfastcvadsp_stub.so:system/vendor/lib/libfastcvadsp_stub.so \
