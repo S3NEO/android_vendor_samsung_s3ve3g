@@ -14,6 +14,7 @@
 
 PRODUCT_COPY_FILES += \
 	vendor/samsung/s3ve3g/proprietary/vendor/lib/hw/sensors.vendor.msm8226.so:system/vendor/lib/hw/sensors.vendor.msm8226.so \
+	vendor/samsung/s3ve3g/proprietary/vendor/lib/hw/camera.vendor.msm8226.so:system/vendor/lib/hw/camera.vendor.msm8226.so \
 	vendor/samsung/s3ve3g/proprietary/vendor/bin/adsprpcd:system/vendor/bin/adsprpcd \
 	vendor/samsung/s3ve3g/proprietary/vendor/lib/libadsprpc.so:system/vendor/lib/libadsprpc.so \
 	vendor/samsung/s3ve3g/proprietary/vendor/lib/libfastcvadsp_stub.so:system/vendor/lib/libfastcvadsp_stub.so \
@@ -55,6 +56,7 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/s3ve3g/proprietary/vendor/lib/libactuator_dw9804_camera.so:system/vendor/lib/libactuator_dw9804_camera.so \
 	vendor/samsung/s3ve3g/proprietary/vendor/lib/libjpegdhw.so:system/vendor/lib/libjpegdhw.so \
 	vendor/samsung/s3ve3g/proprietary/vendor/lib/libjpegehw.so:system/vendor/lib/libjpegehw.so \
+	vendor/samsung/s3ve3g/proprietary/vendor/lib/libmmcamera_interface.so:system/vendor/lib/libmmcamera_interface.so \
 	vendor/samsung/s3ve3g/proprietary/vendor/lib/libmmcamera_faceproc.so:system/vendor/lib/libmmcamera_faceproc.so \
 	vendor/samsung/s3ve3g/proprietary/vendor/lib/libmmcamera_hdr_gb_lib.so:system/vendor/lib/libmmcamera_hdr_gb_lib.so \
 	vendor/samsung/s3ve3g/proprietary/vendor/lib/libmmcamera_image_stab.so:system/vendor/lib/libmmcamera_image_stab.so \
@@ -66,8 +68,10 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/s3ve3g/proprietary/vendor/lib/libmmcamera2_vpe_module.so:system/vendor/lib/libmmcamera2_vpe_module.so \
 	vendor/samsung/s3ve3g/proprietary/vendor/lib/libmmcamera2_wnr_module.so:system/vendor/lib/libmmcamera2_wnr_module.so \
 	vendor/samsung/s3ve3g/proprietary/vendor/lib/libmmipl.so:system/vendor/lib/libmmipl.so \
+	vendor/samsung/s3ve3g/proprietary/vendor/lib/libmmjpeg_interface.so:system/vendor/lib/libmmjpeg_interface.so \
 	vendor/samsung/s3ve3g/proprietary/vendor/lib/libmmjpeg.so:system/vendor/lib/libmmjpeg.so \
 	vendor/samsung/s3ve3g/proprietary/vendor/lib/libmmqjpeg_codec.so:system/vendor/lib/libmmqjpeg_codec.so \
+	vendor/samsung/s3ve3g/proprietary/vendor/lib/libqomx_core.so:system/vendor/lib/libqomx_core.so \
 	vendor/samsung/s3ve3g/proprietary/vendor/lib/libqomx_jpegdec.so:system/vendor/lib/libqomx_jpegdec.so \
 	vendor/samsung/s3ve3g/proprietary/vendor/lib/libqomx_jpegenc.so:system/vendor/lib/libqomx_jpegenc.so \
 	vendor/samsung/s3ve3g/proprietary/vendor/lib/libsensor1.so:system/vendor/lib/libsensor1.so \

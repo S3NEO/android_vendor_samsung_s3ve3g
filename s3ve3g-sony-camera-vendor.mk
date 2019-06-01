@@ -14,9 +14,10 @@
 
 PRODUCT_COPY_FILES += \
 	vendor/samsung/s3ve3g/sony/vendor/lib/B08QT_libTsAe.so:system/vendor/lib/B08QT_libTsAe.so \
-	vendor/samsung/s3ve3g/sony/vendor/lib/B08QT_libTsAf.so.so:system/vendor/lib/B08QT_libTsAf.so \
+	vendor/samsung/s3ve3g/sony/vendor/lib/B08QT_libTsAf.so:system/vendor/lib/B08QT_libTsAf.so \
 	vendor/samsung/s3ve3g/sony/vendor/lib/B08QT_libTs_J_Accm.so:system/vendor/lib/B08QT_libTs_J_Accm.so \
 	vendor/samsung/s3ve3g/sony/vendor/lib/B08QT_libTs_J_Awb.so:system/vendor/lib/B08QT_libTs_J_Awb.so \
+	vendor/samsung/s3ve3g/sony/vendor/lib/libTs_J_Awb.so:system/vendor/lib/libTs_J_Awb.so \
 	vendor/samsung/s3ve3g/sony/vendor/lib/libmmcamera2_stats_algorithm.so:system/vendor/lib/libmmcamera2_stats_algorithm.so \
 	vendor/samsung/s3ve3g/sony/vendor/lib/libmmcamera_fidelix_eeprom.so:system/vendor/lib/libmmcamera_fidelix_eeprom.so \
 	vendor/samsung/s3ve3g/sony/vendor/lib/libmmcamera2_iface_modules.so:system/vendor/lib/libmmcamera2_iface_modules.so \
