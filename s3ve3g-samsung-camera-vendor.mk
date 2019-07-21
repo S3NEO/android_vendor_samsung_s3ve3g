@@ -14,7 +14,7 @@
 
 PRODUCT_COPY_FILES += \
 	vendor/samsung/s3ve3g/samsung/vendor/lib/E08QL_libTsAe.so:system/vendor/lib/E08QL_libTsAe.so \
-	vendor/samsung/s3ve3g/samsung/vendor/lib/E08QL_libTsAf.so.so:system/vendor/lib/E08QL_libTsAf.so \
+	vendor/samsung/s3ve3g/samsung/vendor/lib/E08QL_libTsAf.so:system/vendor/lib/E08QL_libTsAf.so \
 	vendor/samsung/s3ve3g/samsung/vendor/lib/E08QL_libTs_J_Accm.so:system/vendor/lib/E08QL_libTs_J_Accm.so \
 	vendor/samsung/s3ve3g/samsung/vendor/lib/E08QL_libTs_J_Awb.so:system/vendor/lib/E08QL_libTs_J_Awb.so \
 	vendor/samsung/s3ve3g/samsung/vendor/lib/libmmcamera2_stats_algorithm.so:system/vendor/lib/libmmcamera2_stats_algorithm.so \
